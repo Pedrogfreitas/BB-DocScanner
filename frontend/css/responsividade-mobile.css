@@ -51,22 +51,48 @@
 
 /*result*/
 
+.fundo-azul{
+    padding: 7%;
+}
+
+.resultados-header h1 {
+    font-size: 1.2rem;
+    margin: 0%;
+    margin-bottom: 2rem;
+}
+
+.resultados-header img{
+    width: 2rem;
+}
+
 .info-documento {
     width: 24rem;
-    margin-left: 12rem;
+    margin-left: 0;
+}
+
+.titulo-info h2 {
+    font-size: 1.2rem;
+}
+
+.titulo-info img {
+    margin: 0;
+    width: 2rem;
 }
 
 input {
-    margin-left: 10rem;
+    margin: 0%;
 }
 
 .titulo-info {
-    margin-left: 7rem;
+    margin: 0%;
+}
+
+.info-documento p{
+    font-size: 1rem;
 }
 
 .botoes {
-    margin-left: 11rem;
-    margin-top: 1rem;
+    margin: 0%;
 }
 
 .botoes button {
@@ -81,7 +107,27 @@ footer {
 }
 
 .infomacoes-footer h1{
-    font-size: 1.2rem;
+    font-size: 0.9rem;
+}
+
+.infomacoes-footer img{
+    display: none;
+}
+
+.termos-e-responsabilidades h1{
+    font-size: 0.9rem;
+}
+
+.termos-e-responsabilidades img{
+    display: none;
+}
+
+.Código-de-Ética-e-Normas-de-Conduta h1{
+    font-size: 0.9rem;
+}
+
+.Código-de-Ética-e-Normas-de-Conduta img{
+    display: none;
 }
 
 .termos-e-responsabilidades{
@@ -89,5 +135,4 @@ footer {
     align-items: center;
     gap: 1rem;
 }
- }
-
+}

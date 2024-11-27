@@ -189,7 +189,7 @@ hr {
 .fundo-azul {
     background-color: #012244 ;
     color: #FCFB2F;
-    padding: 10rem;
+    padding: 5rem;
 }
 
 /* titulo de resultados  */
@@ -226,11 +226,20 @@ hr {
     margin: 0;
     width: 3rem;
     height: auto;
-    margin-left: 5rem;
-    
+    margin-left: 5rem;  
 }
 
 /* Quadrado onde ficaram os resultados  */
+
+.fundo-azul{
+    padding: 18rem;
+    padding-bottom: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
 .info-documento {
     background-color: #063D75;
     padding: 1rem;
@@ -353,7 +362,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
 }
