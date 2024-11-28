@@ -1,8 +1,17 @@
 
-# BB-DocScanner
+# BB TechDoc
 
 Este repositório refere-se a um projeto de residência acadêmica em parceria com o Banco do Brasil. O objetivo do projeto é analisar imagens e arquivos, extraindo as informações necessárias conforme as solicitações dos usuários.
 
+### Protótipo de Alta Fidelidade 
+
+[![Visualizar no Figma](https://img.shields.io/badge/Visualizar%20no%20Figma-303133?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/Mon05F0Mhd1232P0KE80bc/TechDoc?node-id=0-1&node-type=canvas)
+
+### Acessar a Aplicação Online
+- Abra seu navegador e acesse https://bbtechdoc.onrender.com/ para ver a aplicação em funcionamento.
+
+### Acessar as rotas da aplicação (swagger)
+- Abra seu navegador e acesse https://techdoc.onrender.com/docs
 
 ## Stack utilizada
 
@@ -10,8 +19,12 @@ Este repositório refere-se a um projeto de residência acadêmica em parceria c
 
 **Back-end:** Python
 
-
 ## Instalação
+
+Abra seu terminal e execute o seguinte comando para clonar o repositório:
+
+ ```bash
+git clone https://github.com/Pedrogfreitas/BB-DocScanner
 
 Para fazer as aplicações funcionarem, utilizamos o venv.
 ```bash
@@ -40,6 +53,10 @@ Para digitalizar pdf, utilzamos o PyPDF2.
 Para processamento de linguagem natural, utilizamos o spacy.
 ```bash
     pip install spacy
+```
+Para rodar a api.
+```bash
+    python main.py
 ```
 
 ## Comandos de busca:
