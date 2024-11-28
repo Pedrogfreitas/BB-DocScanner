@@ -25,6 +25,7 @@ Abra seu terminal e execute o seguinte comando para clonar o repositório:
 
  ```bash
 git clone https://github.com/Pedrogfreitas/BB-DocScanner
+```
 
 Para fazer as aplicações funcionarem, utilizamos o venv.
 ```bash
